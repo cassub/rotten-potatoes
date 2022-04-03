@@ -35,8 +35,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            assub/totten-potatoes:latest
-            assub/totten-potatoes:${{github.run_number}}
+            assub/rotten-potatoes:latest
+            assub/rotten-potatoes:${{github.run_number}}
           
         
          
