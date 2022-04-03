@@ -34,7 +34,7 @@ jobs:
           context: ./src
           file: .src/Dockerfile
           push: true
-          tags:
+          tags: |
             assub/totten-potatoes:latest
             assub/totten-potatoes:${{github.run_number}}
           
